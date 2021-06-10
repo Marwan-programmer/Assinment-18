@@ -2,7 +2,7 @@ let btn=document.querySelector("button");
 let div=document.querySelector("#authors");
 
 i=0;/// 
-btn.addEventListener("click",function (e){
+btn.addEventListener("click",function (){
 
 fetch("https://fakerestapi.azurewebsites.net/api/v1/Authors")
 .then(responde=>responde.json())  
